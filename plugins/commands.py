@@ -11,19 +11,19 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'Ns_bot_updates'
 
     # start text
-    text = f"""Selam! {m.from_user.mention(style='md')},
+    text = f"""__Salam!__ {m.from_user.mention(style='md')},
 
-💡 ** Ben Yazı Stili Oluşturucu Bot**
+💡 ** Mən Yazı Şrifti Düzəldən Botam**
 
-`Bana yazı tipini değiştirmek istediğin bir kelime veya cümle yazman yeterlidir.`
+`Şriftini dəyişmək istədiyiniz söz və ya ifadəni mənə yazın.`
 
-**👲 Sahibim:** @Bir_Beyfendi
+**👲 Sahiblerim :** @S1yahimsin , @GruzzzBy
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('Destek grubu ✴', url="https://t.me/HerTeldenSupport")
+            InlineKeyboardButton('Söhbət Grubu ✨', url="https://https://t.me/BakuSohbetGrubu")
         ]
     ]
     await m.reply_text(
